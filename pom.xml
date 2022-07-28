@@ -8,8 +8,8 @@
         <version>2.7.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.sicredi.teste</groupId>
-    <artifactId>sicrediteste</artifactId>
+    <groupId>com.tuyo</groupId>
+    <artifactId>hello_world</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>sicrediteste</name>
     <description>Projeto Teste para Sicredi</description>
