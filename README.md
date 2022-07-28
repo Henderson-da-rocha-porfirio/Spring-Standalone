@@ -1,16 +1,16 @@
 # Teste Sicredi 2022
-### Cenário de Negócio:
+### 1. Cenário de Negócio:
 ````
 Todo dia útil por volta das 6 horas da manhã um colaborador da retaguarda do Sicredi recebe e organiza as informações de contas para enviar ao Banco Central.
 Todas agencias e cooperativas enviam arquivos Excel à Retaguarda. Hoje o Sicredi já possiu mais de 4 milhões de contas ativas.
 Esse usuário da retaguarda exporta manualmente os dados em um arquivo CSV para ser enviada para a Receita Federal, antes as 10:00 da manhã na abertura das agências.
 ````
-### Requisito:
+### 2. Requisito:
 ````
 Usar o "serviço da receita" (fake) para processamento automático do arquivo.
 ````
 
-### Funcionalidade:
+### 3. Funcionalidade:
 ````
 0. Criar uma aplicação SprintBoot standalone. Exemplo: java -jar SincronizacaoReceita <input-file>
 1. Processa um arquivo CSV de entrada com o formato abaixo.
@@ -18,7 +18,7 @@ Usar o "serviço da receita" (fake) para processamento automático do arquivo.
 3. Retorna um arquivo com o resultado do envio da atualização da Receita. Mesmo formato adicionando o resultado em uma nova coluna.
 ````
 
-### Formato CSV:
+### 4. Formato CSV:
 ````
 agencia;conta;saldo;status
 0101;12225-6;100,00;A
@@ -28,7 +28,7 @@ agencia;conta;saldo;status
 3202;00321-2;34500,00;B
 ...
 ````
-### Endpoint para teste no Postman:
+### 5. Endpoint para teste no Postman:
 ````
 http://localhost:8080/sincronizar/exportar
 ````
