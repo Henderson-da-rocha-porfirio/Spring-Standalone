@@ -1,0 +1,5 @@
+com\sicredi\teste\api\controller\ReceitaController.class
+com\sicredi\teste\domain\service\ReceitaCsvService.class
+com\sicredi\teste\domain\response\SocioResponse.class
+com\sicredi\teste\domain\service\ReceitaService.class
+com\sicredi\teste\SincronizacaoReceita.class
