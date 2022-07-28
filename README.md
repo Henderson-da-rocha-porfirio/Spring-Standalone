@@ -6,3 +6,21 @@
 
 ### 2. A dependência do Maven
 #### - O spring-boot-starter é a única dependência necessária para construir nosso aplicativo autônomo. Verificar o pom.xml
+
+### 3. Classe de Serviço
+#### — O bean HelloWorldService imprimirá uma mensagem de saudação para a API de chamada.
+
+### 4. Classe principal do Spring Boot
+#### — Na classe principal colocamos a anotação:
+````
+@SpringBootApplication.
+````
+### 5. Realizar o Build
+````
+ mvn package
+````
+### 6. Na execução bem-sucedida, podemos encontrar um jar executável (nome-aplication-0.0.1-SNAPSHOT.jar)
+#### — Para executar o aplicativo, use o  java -jar comando:
+````
+$ java -jar target/hello_world-0.0.1-SNAPSHOT.jar
+````
