@@ -3,9 +3,9 @@
 ###
 ### Versões envolvidas:
 | Software | Versão |
-| --- | --- |
-| Java | 11 |
-| Spring | 2.7.2 |
+| :--- | :---: |
+| `Java` | 11 |
+| `Spring` | 2.7.2 |
 
 ###
 ### 1. Cenário de Negócio:
