@@ -24,3 +24,9 @@
 ````
 $ java -jar target/hello_world-0.0.1-SNAPSHOT.jar
 ````
+### 7. CommandLineRunner
+#### — O uso do CommandLineRunner não é obrigatório, mas oferece várias vantagens durante a inicialização e gerenciamento do aplicativo.
+````
+É executado após o contexto do aplicativo ser carregado para que possamos usá-lo para verificar se existem determinados beans ou se os valores necessários foram inicializados corretamente.
+Fornecer controle do processo de inicialização do sistema.
+````
