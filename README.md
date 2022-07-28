@@ -42,7 +42,7 @@ agencia;conta;saldo;status
 ````
 http://localhost:8080/sincronizar/exportar
 ````
-### 6. Resposta esperada:
+### Resposta esperada pelo Postman:
 ````
 agencia,conta,saldo,status,false
 0101,12225-6,"100,00",A,true
