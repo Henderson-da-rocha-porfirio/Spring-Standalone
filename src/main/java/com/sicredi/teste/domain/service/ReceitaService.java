@@ -1,4 +1,4 @@
-package com.sicredi.teste.service;
+package com.sicredi.teste.domain.service;
 
 import java.util.ArrayList;
 import java.util.List;
