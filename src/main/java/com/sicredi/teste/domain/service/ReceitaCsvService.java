@@ -12,7 +12,7 @@ import java.io.IOException;
 import java.io.Writer;
 
 @Service
-public class ExportarCsvService {
+public class ReceitaCsvService {
 
     @Autowired
     private ReceitaService receitaService;
