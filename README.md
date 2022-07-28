@@ -1,7 +1,12 @@
 # Desafio 2022 - teste para a vaga de desenvolvedor backend java
 ## *** Utilizando Spring Standalone - Criação de um App Autônomo
-## *** Versão do Java Utilizada: 11
-## *** Versão do Spring: 2.7.2
+###
+### Versões envolvidas:
+| Software | Versão |
+| --- | --- |
+| Java | 11 |
+| Spring | 2.7.2 |
+
 ###
 ### 1. Cenário de Negócio:
 ````
@@ -23,6 +28,7 @@ Usar o "serviço da receita" (fake) para processamento automático do arquivo.
 ````
 
 ### 4. Formato CSV:
+#### arquivo.csv
 ````
 agencia;conta;saldo;status
 0101;12225-6;100,00;A
@@ -36,3 +42,14 @@ agencia;conta;saldo;status
 ````
 http://localhost:8080/sincronizar/exportar
 ````
+### 6. Resposta esperada:
+````
+agencia,conta,saldo,status,false
+0101,12225-6,"100,00",A,true
+0101,12226-8,"50,00",A,true
+3202,40011-1,"12,00",I,true
+3202,54001-2,"0,00",P,true
+3202,00321-2,"34500,00",B,true
+````
+###
+## *** Pastas /Target e /.idea não foram ignoradas, propositalmente, para mostrar o arquivo .jar gerado e qual o editor utilizado.
