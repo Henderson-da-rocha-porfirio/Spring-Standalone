@@ -12,7 +12,7 @@ Usar o "serviço da receita" (fake) para processamento automático do arquivo.
 
 ### 3. Funcionalidade:
 ````
-0. Criar uma aplicação SprintBoot standalone. Exemplo: java -jar SincronizacaoReceita <input-file>
+0. Criar uma aplicação SpringBoot standalone. Exemplo: java -jar target/sicrediteste-0.0.1-SNAPSHOT.jar
 1. Processa um arquivo CSV de entrada com o formato abaixo.
 2. Envia a atualização para a Receita através do serviço (SIMULADO pela classe ReceitaService).
 3. Retorna um arquivo com o resultado do envio da atualização da Receita. Mesmo formato adicionando o resultado em uma nova coluna.
