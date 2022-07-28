@@ -1,6 +1,6 @@
 package com.sicredi.teste.domain.service;
 
-import com.sicredi.teste.domain.response.Socio;
+import com.sicredi.teste.domain.response.SocioResponse;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVPrinter;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,9 +25,9 @@ public class ReceitaCsvService {
             CSVPrinter csvPrinter = new CSVPrinter(writer, CSVFormat.DEFAULT);
             while ((line = br.readLine()) != null) {
 
-                String[] associado = line.split(splitBy);
-                Socio socio = new Socio(associado[0], associado[1], associado[2], associado[3], receitaService.atualizarConta(associado[0], associado[1], associado[2], associado[3]));
-                csvPrinter.printRecord(socio.getCodSocio(), socio.getNuConta(), socio.getSaldo(), socio.getStatus(), socio.isResposta());
+                String[] socio = line.split(splitBy);
+                SocioResponse socioResponse = new SocioResponse(socio[0], socio[1], socio[2], socio[3], receitaService.atualizarConta(socio[0], socio[1], socio[2], socio[3]));
+                csvPrinter.printRecord(socioResponse.getCodSocio(), socioResponse.getNuConta(), socioResponse.getSaldo(), socioResponse.getStatus(), socioResponse.isResposta());
             }
         }
         catch (IOException | InterruptedException e)  {

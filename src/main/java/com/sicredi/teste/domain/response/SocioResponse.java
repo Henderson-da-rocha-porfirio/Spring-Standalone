@@ -6,7 +6,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Socio {
+public class SocioResponse {
 
     private String codSocio;
 

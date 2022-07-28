@@ -24,7 +24,7 @@ public class ReceitaService {
         }
 
         // Formato conta: 000000
-        if (conta == null || conta.length() != 6) {
+        if (conta == null || conta.length() != 7) {
             return false;
         }
 
