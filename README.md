@@ -1,4 +1,4 @@
-# Teste Sicredi 2022 - teste para a vaga de desenvolvedor backend java
+# Desafio 2022 - teste para a vaga de desenvolvedor backend java
 ### 1. Cenário de Negócio:
 ````
 Todo dia útil por volta das 6 horas da manhã um colaborador da retaguarda do Sicredi recebe e organiza as informações de contas para enviar ao Banco Central.
