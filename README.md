@@ -1,1 +1,1 @@
-# @SpringBootApplication - fica na classe Main.
+# @RestController: é a anotação que devemos por quando queremos construir aplicações Rest.
